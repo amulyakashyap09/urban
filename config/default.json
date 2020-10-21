@@ -1,0 +1,10 @@
+{
+    "mongo": {
+        "uri": "mongodb://docker-mongodb-server:27017/urban"
+    },
+    "redis": {
+        "host": "docker-redis-server",
+        "port": 6379,
+        "showFriendlyErrorStack": false
+    }
+}

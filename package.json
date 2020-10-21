@@ -1,0 +1,27 @@
+{
+  "name": "urban",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "mocha tests/*.test.js --exit"
+  },
+  "dependencies": {
+    "config": "^3.3.2",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "ioredis": "^4.17.3",
+    "jade": "~1.11.0",
+    "mongodb": "^3.6.2",
+    "mongoose": "^5.10.9",
+    "morgan": "~1.9.1",
+    "node-geocoder": "^3.27.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^8.2.0"
+  }
+}
